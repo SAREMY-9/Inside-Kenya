@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins'sans-serif;
+}
+
+.logo {
+    border-radius: 100px;
+    flex-basis: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    color: #000000;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header {
+    background: radial-gradient(#fff, #424242);
+}
+
+.container {
+    max-width: 900;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: repeat;
+}
+
+
+/*background-image: url(../images/open.png);*/
+
+.col-1 {
+    padding: 25px;
+    padding: 25px;
+}
+
+.small-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 1300px;
+}
+
+.quote {
+    line-height: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-2 {
+    flex-basis: 30%;
+    min-width: 250px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.col-2 img {
+    width: 80%;
+}
+
+.col-2:hover {
+    transform: translateY(-10px);
+}
+
+.categories {
+    margin: 0px 0;
+}
+
+.col-2 p {
+    line-height: 2em;
+    margin: 25px 0;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+}
+
+.btn {
+    display: inline-block;
+    color: #000;
+    background: #999999;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #2cd8f7;
+}
+
+.footer {
+    background: radial-gradient(#08fdc8, #901dc5);
+    padding: 25px;
+    color: #000;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+}
+
+.footer a {
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.copyright {
+    background: radial-gradient(#ffffff, #5e5e5e);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+    text-align: center;
+}
+
+.copyright p:hover {
+    transition: transform 0.5s;
+}
